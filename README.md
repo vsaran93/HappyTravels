@@ -1,2 +1,2 @@
 # HappyTravels
-online bus booking platform 
+it's a web api application for online bus booking
