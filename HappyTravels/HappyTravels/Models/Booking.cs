@@ -12,5 +12,13 @@ namespace HappyTravels.Models
         public Traveller? Traveller { get; set; }
         public TravelSchedule? TravelSchedule { get; set; }
     }
+
+    public class BookingDto
+    {
+        public int TravellerId { get; set; }
+        public int TravelScheduleId { get; set; }
+        public int SeatNumber { get; set; }
+        public bool IsPaid { get; set; }
+    }
 }
 

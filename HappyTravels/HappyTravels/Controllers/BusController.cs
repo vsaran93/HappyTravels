@@ -88,7 +88,7 @@ namespace HappyTravels.Controllers
             _context.Buses.Remove(dbBus);
             await _context.SaveChangesAsync();
 
-            return Ok();
+            return NoContent();
         }
     }
 }
