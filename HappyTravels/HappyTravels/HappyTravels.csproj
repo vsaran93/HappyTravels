@@ -23,6 +23,7 @@
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="..\.editorconfig" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
