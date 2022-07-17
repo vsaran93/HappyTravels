@@ -75,6 +75,7 @@ namespace HappyTravels.Controllers
             return Ok();
         }
 
+        // delete bus 
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteBus(int id)
         {
